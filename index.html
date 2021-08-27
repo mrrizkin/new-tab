@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>New Tab</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-700 text-gray-300">
+    <div class="h-screen w-full flex flex-col justify-center items-center">
+      <h1 class="text-4xl font-bold">Welcome Back, Master</h1>
+      <noscript><span>Enable Javascript to see current date</span></noscript>
+      <span id="dateTime" class="mb-10"></span>
+      <input
+        type="text"
+        name="search"
+        class="rounded-md bg-gray-800 w-full py-1 px-4 mb-4 shadow-md max-w-screen-sm"
+        id="search"
+        placeholder="Search..."
+      />
+      <div class="flex max-w-screen-lg justify-center items-start flex-wrap">
+        <div class="py-4 px-6 rounded-md shadow-md m-4 bg-gray-800">
+          <h2 class="text-lg mb-4 font-bold">Online IDE</h2>
+          <ul>
+            <li>
+              <a class="hover:text-gray-100" href="https://repl.it">Repl</a>
+            </li>
+            <li>
+              <a class="hover:text-gray-100" href="https://codesandbox.io"
+                >CodeSanbox</a
+              >
+            </li>
+            <li>
+              <a class="hover:text-gray-100" href="https://ide.goorm.io"
+                >goorm</a
+              >
+            </li>
+            <li>
+              <a class="hover:text-gray-100" href="https://gitpod.io">Gitpod</a>
+            </li>
+            <li>
+              <a class="hover:text-gray-100" href="https://stackblitz.com"
+                >StackBlitz</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="py-4 px-6 rounded-md shadow-md m-4 bg-gray-800">
+          <h2 class="text-lg mb-4 font-bold">Social Media</h2>
+          <ul>
+            <li>
+              <a
+                class="hover:text-gray-100"
+                href="https://mstdn.social/@nugrhrizki"
+                >Mastodon</a
+              >
+            </li>
+            <li>
+              <a class="hover:text-gray-100" href="https://t.me/nugrhrizki"
+                >Telegram</a
+              >
+            </li>
+            <li>
+              <a
+                class="hover:text-gray-100"
+                href="https://matrix.to/#/@kin.mike:matrix.org"
+                >Matrix</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="py-4 px-6 rounded-md shadow-md m-4 bg-gray-800">
+          <h2 class="text-lg mb-4 font-bold">VCS Cloud</h2>
+          <ul>
+            <li>
+              <a
+                class="hover:text-gray-100"
+                href="https://github.com/nugrhrizki"
+                >Github</a
+              >
+            </li>
+            <li>
+              <a
+                class="hover:text-gray-100"
+                href="https://gitlab.com/nugrhrizki"
+                >Gitlab</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="py-4 px-6 rounded-md shadow-md m-4 bg-gray-800">
+          <h2 class="text-lg mb-4 font-bold">Tools</h2>
+          <ul>
+            <li>
+              <a class="hover:text-gray-100" href="https://neumorphism.io/"
+                >Neumorphism</a
+              >
+            </li>
+            <li>
+              <a class="hover:text-gray-100" href="https://shadows.brumm.af/"
+                >Smooth Shadow</a
+              >
+            </li>
+            <li>
+              <a
+                class="hover:text-gray-100"
+                href="https://www.30secondsofcode.org/"
+                >30 Seconds Code</a
+              >
+            </li>
+            <li>
+              <a class="hover:text-gray-100" href="https://tinypng.com/"
+                >TinyPNG</a
+              >
+            </li>
+
+            <li>
+              <a class="hover:text-gray-100" href="https://codesnippet.io/"
+                >Code Snippet</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="./src/index.ts"></script>
+  </body>
+</html>
